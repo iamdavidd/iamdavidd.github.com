@@ -1,0 +1,270 @@
+.clearfix:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+body
+{
+	max-width: 100%;
+	margin: 0;
+	background: url(../img/background-2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+nav
+{
+	height: 50px;
+	/* background: #000; */
+	color: #fff;
+	/* background:rgba(0, 0, 0, 0.3); */
+	position: fixed;
+	width: 100%;
+}
+
+nav .logo
+{
+	float: left;
+	line-height: 50px;
+	padding: 0 10px;
+	font-size: 24px;
+	letter-spacing: 4px;
+	font-family:"Comic Sans MS","幼圆","黑体",sans-serif;
+	/* font-family:"Times New Roman",Georgia,Serif; */
+
+}
+
+nav .logo2
+{
+	float: right;
+	line-height: 50px;
+	font-size: 18px;
+	letter-spacing: 4px;
+	font-family:arial, sans-serif;
+}
+
+.logo a,.logo2 a
+{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.banner
+{
+	/* background: gray; */
+	text-align: center;
+	color: #fff;
+	letter-spacing: 10px;
+	font-family:"Comic Sans MS","幼圆","黑体",sans-serif;
+}
+
+.banner .inner
+{
+	width: 60%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+ 
+.inner h1
+{
+	padding-top: 50px;
+	font-size: 80px;
+	margin-bottom: 0;
+}
+.inner p
+{
+	padding: 40px 0;
+	font-size: 50px;
+	margin: 0;
+}
+
+p.four
+{
+	padding: 40px 0;
+	font-size: 60px;
+	margin: 0;
+	letter-spacing: 20px;
+}
+
+.content
+{
+	/* background: #4B3C62; */
+	color: #fff;
+}
+
+.gray-section
+{
+	max-width: 65%;
+	margin: 0 auto;
+	/* text-align: center; */
+	padding: 100px 0;
+}
+
+.article
+{
+ 	padding: 30px 0;
+}
+
+.article .img-section
+
+{
+	float: left;
+	width: 40%;
+}
+
+.article .text-section
+
+{
+	float: left;
+	width: 60%;
+	/*  padding-top: 50px; */
+}
+
+.article .img-section-m,
+.article .text-section-m
+{
+	float: left;
+	width: 50%;
+}
+
+.article .img-section img,
+.article .img-section-m img
+{
+	width: 100%;
+}
+
+.article .text-right
+{
+	text-align: right;
+} 
+
+.text-section h2,
+.text-section-m h2
+{
+	font-size: 90px;
+	margin: 20px 0;
+}
+
+.text-section h3,
+.text-section-m h3
+{
+	font-size: 40px;
+	margin: 40px 0;
+}
+
+.text-section p,
+.text-section-m p
+{
+	font-size: 25px;
+	padding-top: 30px;
+}
+
+.article:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.content .six-photo
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 300px;
+}
+
+.six-photo .text-section
+{
+	font-size: 50px;
+	line-height: 150px;
+	letter-spacing: 10px;
+	font-weight: 700;
+}
+
+.six-photo .img-section
+{
+	width: 100%;
+	margin: 0 auto;
+	line-height: 0;
+}
+
+.six-photo .heart
+{
+	font-size: 200px;
+	margin: 400px 0 20px 0;
+	letter-spacing: 50px;
+	font-weight: 800;
+}
+
+.six-photo .forever
+{
+	font-size: 200px;
+	margin: 20px;
+}
+
+.six-photo .end-text
+{
+	font-size: 30px;
+	margin-top: 500px;
+	line-height: 70px;
+}
+
+footer
+{
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	min-height: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+ul.share-group
+{
+	width: 70%;
+	display: block;
+	list-style: none;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.share-group li
+{
+	display: inline-block;
+	padding: 10px;
+}
+
+.share-group li a
+{
+
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.copy
+{
+	padding: 20px;
+}
+
+.copy a
+{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 3px;
+	border-bottom: 1px dotted #fff;
+}
